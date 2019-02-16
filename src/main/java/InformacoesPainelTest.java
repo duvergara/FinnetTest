@@ -25,7 +25,7 @@ public class InformacoesPainelTest {
 			navegador = Web.creatChrome();
 		}
 
-		//@Test
+		@Test
 		public void  efetuarLogin() throws Exception{
 			new Loginpage(navegador)
 			.clicAcessoCliente()
@@ -49,7 +49,7 @@ public class InformacoesPainelTest {
 		    new formCadastrarUsuario(navegador)
 		     .clicarNovoUsuario()
 		     .incluirNovoUsuarioe()	
-			.txtIncricao1("19932581902")
+			.txtIncricao1("19932231902")
 			.txtNome("eduardo moises")
 			.txtEmail("teste@teste.com.br")
 			.txtTelefone("1117531251")
