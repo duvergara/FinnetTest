@@ -49,7 +49,7 @@ public class InformacoesPainelTest {
 		    new formCadastrarUsuario(navegador)
 		     .clicarNovoUsuario()
 		     .incluirNovoUsuarioe()	
-			.txtIncricao1("19932231902")
+			.txtIncricao1("19932231944")
 			.txtNome("eduardo moises")
 			.txtEmail("teste@teste.com.br")
 			.txtTelefone("1117531251")
